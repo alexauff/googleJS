@@ -26,14 +26,17 @@ body {
 /* HEADER */
 
 header ul{
-list-style-type: none;
-display: flex;
-flex-direction: row;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
 }
 
 #header_right{
 	display: flex;
 	justify-content: flex-end;
+	position: absolute;
+	top: 0px;
+	width: 95%;
 }
 
 header a {
@@ -144,6 +147,8 @@ header li {
 
 footer {
 	width: 100%;
+	position: absolute;
+	bottom: 0px;
 }
 
 #footer_left {
@@ -152,6 +157,7 @@ footer {
 
 #footer_right {
 	justify-content: flex-end;
+
 }
 
 footer nav {
