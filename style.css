@@ -129,7 +129,7 @@ header li {
 	font-size: 16px;
 }
 
-#rech, #lucky{
+#rech, #lucky, button{
 	padding: 0px 16px ;
 	text-align: center;
 	font-size: 13px;
