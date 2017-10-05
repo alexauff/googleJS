@@ -1,8 +1,19 @@
 body
-{display: flex;
-  flex-direction: column;
- height: 100%;
- margin:0px;}
+{	display: flex;
+  	flex-direction: column;
+ 	height: 100%;
+ 	margin:0px;}
+
+.conteneur {	
+  	border: 1px solid black;
+  	width: 400px;
+    height: 400px;}
 
 carre
- {border: 1px solid black;}
+ {	border: 1px solid black;
+  	background-color: yellow;
+  	width: 400px;
+    height: 400px;
+ }
+
+

@@ -16,7 +16,7 @@ while(demander){
 localStorage.setItem('nombre', N);*/
 
 //rajout de la variable pour faire une boucle
-for (let i=0; i<N; i++){chaineligne=chaineligne+"<carre>O</carre>";}
+for (let i=0; i<N; i++){chaineligne=chaineligne+"<carre>0</carre>";}
 for (let i=0; i<N; i++){chaine=chaine+"<div>"+chaineligne+"</div>";}
 chaine ="<div>" + chaine + "</div>";
 document.getElementById('grille').innerHTML = chaine;
