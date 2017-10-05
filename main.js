@@ -15,7 +15,6 @@ monBouton.onclick = function() {
 document.getElementById('corps').style.display='flex';
 };
 
-
 // si clique sur bouton recherche google
 monBoutonSearch.onclick = function() {
 
@@ -24,13 +23,8 @@ monUrl = document.getElementById("search").value;
 
 // changer l'adresse de l url
 window.location.href="https://www.google.fr/search?q=" + monUrl;
-
 };
 
 setTimeout(function() {
 alert('Hey le site est trop bien! Viens dessus stp please')
 }, 10000);
-
-    
-}
-
