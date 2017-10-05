@@ -24,6 +24,13 @@ body {
 }
 
 /* HEADER */
+.pupop
+{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
 
 header ul{
 	list-style-type: none;
