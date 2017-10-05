@@ -1,7 +1,8 @@
 body
 {display: flex;
+  flex-direction: column;
  height: 100%;
  margin:0px;}
 
-carre 
- {border: 50px solid black;}
+carre
+ {border: 1px solid black;}
